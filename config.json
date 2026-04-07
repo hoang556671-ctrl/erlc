@@ -1,0 +1,33 @@
+{
+  "max_accounts": 14,
+  "stagger_delay": 40,
+  "launch_batch_size": 2,
+  "anti_afk_min_interval": 75,
+  "anti_afk_max_interval": 240,
+  "anti_afk_join_grace_seconds": 180,
+  "anti_afk_api_false_threshold": 2,
+  "anti_afk_window_invalid_threshold": 3,
+  "anti_afk_fallback_threshold": 3,
+
+  "apply_bloxstrap_performance_profile": true,
+  "target_fps": 30,
+  "erlc_place_id": "2534724415",
+  "private_server_code": "calf",
+
+  "join_verify_total_seconds": 90,
+  "join_verify_poll_seconds": 5,
+  "join_verify_success_samples": 2,
+
+  "validate_cookies": true,
+  "verbose_logging": false,
+
+  "enable_health_checks": true,
+  "health_check_interval": 180,
+
+  "auto_reconnect": false,
+  "max_reconnect_attempts": 5,
+  "reconnect_delay": 60,
+  
+  "minimize_windows": true,
+  "low_priority_mode": true
+}
